@@ -71,12 +71,13 @@ int main(void)
                              PHASE_A_EN | PHASE_B_EN | PHASE_A_STATE,
                              PHASE_A_EN | PHASE_C_EN | PHASE_A_STATE,
                              PHASE_B_EN | PHASE_C_EN | PHASE_B_STATE};
+
     uint8_t ledTable[6] = { RED_LED,
                             BLUE_LED,
                             GREEN_LED,
                             RED_LED&BLUE_LED,
                             RED_LED&GREEN_LED,
-                            BLUE_LED&GREEN_LED,}
+                            BLUE_LED&GREEN_LED};
 
 
 
